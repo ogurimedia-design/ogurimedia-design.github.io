@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>オグリ自動化ハブ / Oguri Automation Hub | オグリメディア</title>
+<meta name="description" content="オグリメディアが自社の YouTube チャンネル運用のために使う社内ツール「オグリ自動化ハブ」の紹介ページです。">
+<style>
+  :root { --ink: #1c1c1d; --muted: #6d6d68; --line: #e4e4e0; --bg: #f4f4f2; --card: #fff; }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font: 15px/1.9 "Hiragino Sans", "Noto Sans JP", "Yu Gothic", sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  .brand { letter-spacing: .14em; font-size: 12px; color: var(--muted); }
+  h1 { font-size: 28px; line-height: 1.4; margin: 6px 0 4px; }
+  .en-title { color: var(--muted); margin: 0 0 18px; }
+  h2 { font-size: 17px; margin: 26px 0 8px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 22px 22px 14px; margin-top: 18px; }
+  .yt { display: inline-flex; align-items: center; gap: 8px; font-weight: 700; }
+  ul { padding-left: 1.2em; margin: 6px 0; }
+  a { color: var(--ink); }
+  nav { display: flex; gap: 18px; flex-wrap: wrap; margin-top: 8px; }
+  footer { margin-top: 36px; font-size: 13px; color: var(--muted); }
+</style>
+</head>
+<body>
+<main>
+  <div class="brand">OGURI MEDIA</div>
+  <h1>オグリ自動化ハブ</h1>
+  <p class="en-title">Oguri Automation Hub — an internal tool of Oguri Media</p>
+  <nav><a href="privacy.html">プライバシーポリシー / Privacy Policy</a><a href="terms.html">利用規約 / Terms of Service</a></nav>
+
+  <div class="card">
+    <p class="yt">YouTube API Services を使用しています / Uses YouTube API Services</p>
+    <p>オグリ自動化ハブは、オグリメディアが<b>自社で運営する YouTube チャンネル</b>のために使う社内ツールです。
+      一般の方向けに提供・販売しているサービスではありません。</p>
+    <h2>できること</h2>
+    <ul>
+      <li>自社で制作したショート動画を、自社の YouTube チャンネルにアップロード・予約公開する</li>
+      <li>公開した自社の動画に、チャンネルとしてお知らせのコメントを投稿する</li>
+      <li>自社チャンネルの再生数・視聴時間・視聴者維持率・登録者数などの成績を、社内で確認する</li>
+    </ul>
+  </div>
+
+  <div class="card" lang="en">
+    <h2 style="margin-top:0">About (English)</h2>
+    <p>Oguri Automation Hub is an <b>internal tool</b> used only by Oguri Media to operate its <b>own YouTube channels</b>.
+      It is not offered or sold to the public, and it never accesses anyone else's account.</p>
+    <ul>
+      <li>Upload and schedule short videos that Oguri Media produced itself to its own channel (videos.insert with publishAt)</li>
+      <li>Post an announcement comment as the channel on its own published videos (commentThreads.insert)</li>
+      <li>Show its own channel's performance (views, watch time, retention, subscribers) internally (YouTube Analytics API)</li>
+    </ul>
+    <p>Data from YouTube API Services is handled as described in our <a href="privacy.html">Privacy Policy</a>,
+      and use of this tool is subject to the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>
+      and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+  </div>
+
+  <footer>
+    運営 / Operator: オグリメディア (Oguri Media) ・ お問い合わせ / Contact: <a href="mailto:oguri.media@gmail.com">oguri.media@gmail.com</a><br>
+    <a href="privacy.html">プライバシーポリシー / Privacy Policy</a> ・ <a href="terms.html">利用規約 / Terms of Service</a>
+  </footer>
+</main>
+</body>
+</html>
